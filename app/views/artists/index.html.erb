@@ -1,11 +1,27 @@
-<div class="container rooms">
-  <div class="row">
-    <div class="col-sm-12">
-      <header>
-        <h1>Habitaciones</h1>
-      </header>
-
-     
+<main>
+  <div class="container">
+    <div class="row">
+      <% @artists.each do |artist| %>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 foto-artista shadow">
+          <div class="card">
+            <img class="card-img-top" src=<%= artist.image_url %> alt=<%= artist.name %>  >
+            <div class="card-body">
+              <h4 class="card-title"><%= artist.name %></h4>
+              <%= link_to  "Ver más", artist_path(artist), class: "btn btn-primary btn-sm btn-block" %>
+            </div>
+          </div>
+        </div>
+      <% end %>
     </div>
   </div>
-</div>
+</main>
+
+
+
+
+
+
+
+
+
+
