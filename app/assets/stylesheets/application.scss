@@ -1,24 +1,4 @@
 @import "theme";
 @import "bootstrap";
 
-
-div.row{
-    justify-content: space-between;
-
-    .foto-artista{
-        padding: 10px;
-        margin-top: 25px;
-
-        .card{
-            border: none;
-            background-color: transparent;
-            
-            .card-body{
-                text-align: center;
-                padding: 7px;
-                color: #fff;
-            }
-        }
-        
-    }
-}
+@import "artists";

@@ -4,7 +4,8 @@ class ArtistsController < ApplicationController
   end
   
   def show
-    @artist = Artist.find_by params[:id] 
+    @artist = Artist.find params[:id]
+    @albums = Album.where(artist_id: params[:id])
   end
   
 end

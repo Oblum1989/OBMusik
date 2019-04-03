@@ -17,3 +17,10 @@ Artist.create(name: "Thalia",image_url: "https://revista.dicelacancion.com/wp-co
 Artist.create(name: "The Mills",image_url: "https://indiespot.es/wp-content/uploads/2013/09/killers.jpg")
 Artist.create(name: "The Killers",image_url: "http://www.radioacktiva.com/wp-content/uploads/2015/07/19997_g_0b46f0_imgg1.jpg")
 
+Album.create(artist_id: 1, name: "album prueba", image_url: "https://direct.rhapsody.com/imageserver/images/Alb.106650952/500x500.jpg", released_at: "prueba")
+Album.create(artist_id: 1, name: "album prueba1", image_url: "https://direct.rhapsody.com/imageserver/images/Alb.106650952/500x500.jpg", released_at: "prueba")
+Album.create(artist_id: 1, name: "album prueba2", image_url: "https://direct.rhapsody.com/imageserver/images/Alb.106650952/500x500.jpg", released_at: "prueba")
+Album.create(artist_id: 1, name: "album prueba3", image_url: "https://direct.rhapsody.com/imageserver/images/Alb.106650952/500x500.jpg", released_at: "prueba")
+Album.create(artist_id: 1, name: "album prueba4", image_url: "https://direct.rhapsody.com/imageserver/images/Alb.106650952/500x500.jpg", released_at: "prueba")
+Album.create(artist_id: 1, name: "album prueba5", image_url: "https://direct.rhapsody.com/imageserver/images/Alb.106650952/500x500.jpg", released_at: "prueba")
+Album.create(artist_id: 2, name: "album prueba2", image_url: "https://www.buenamusica.com/media/fotos/discos/m/marc-anthony/marc-anthony_from-the-beginning.jpg", released_at: "prueba2")
